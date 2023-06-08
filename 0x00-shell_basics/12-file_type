@@ -1,2 +1,2 @@
 #!/bin/bash
-file_info=$(file -L -b /tmp/iamafile); file_size=$(stat -c%s /tmp/iamafile); echo "/tmp/iamafile: $file_info ($file_size chars long)"
+file /tmp/iamafile $file_info ($file_size chars long)"
