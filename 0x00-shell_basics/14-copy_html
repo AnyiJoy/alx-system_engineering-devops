@@ -1,0 +1,2 @@
+#!/bin/bash
+for file in "$(pwd)"/*.html; do filename=$(basename "$file"); if [ ! -e "$(dirname "$(pwd)")/$filename" ] || [ "$file" -nt "$(dirname "$(pwd)")/$filename" ]; then cp "$file" "$(dirname "$()")"; fi; done
