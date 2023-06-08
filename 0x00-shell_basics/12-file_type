@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/iamafile $file_info ($file_size chars long)"
+file /tmp/iamafile $file_info ($file_size chars long)
