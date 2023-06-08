@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -iname "*.html" -type f | xargs -I '{}' cp -u '{}' "$(dirname "$(pwd)")"
