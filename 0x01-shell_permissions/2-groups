@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Groups for user $(whoami):" && groups "$(whoami)"
+echo -e "Groups for user $(whoami):\n$(groups "$(whoami)")"
