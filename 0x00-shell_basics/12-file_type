@@ -1,2 +1,2 @@
 #!/bin/bash
-file /tmp/iamafile | awk -F: '{print $1 ":" $2}'
+file -L -b /tmp/iamafile
