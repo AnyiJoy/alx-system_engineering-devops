@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' - - <(printf '\n')
+printf '%s\n' * | paste -d'\n' - - <(printf '\n') | xargs -I{} echo {}
