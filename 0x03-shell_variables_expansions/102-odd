@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' * | paste -d'\n' - - <(printf '\n') | xargs -I{} echo {}
+cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
